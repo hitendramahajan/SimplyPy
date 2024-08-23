@@ -20,4 +20,5 @@ if __name__ == '__main__':
     # Example URL to fetch data from
     url = 'https://google.com'
     fetch_data(url)
+    fetch_url(url)
     merge_pdf()
