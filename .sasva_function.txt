@@ -1,0 +1,1 @@
+def merge_pdf(),retry~3,hybride_inference==true
