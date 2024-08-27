@@ -1,5 +1,5 @@
-pypdf2==1.26.0
-celery==5.0.5
-pillow==9.2.0
-requests==2.25.0
-urllib3==1.26.0
+pypdf2==3.0.1
+celery==5.5.0b1
+pillow==10.4.0
+requests==2.32.3
+urllib3==2.2.2
