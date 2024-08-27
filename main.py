@@ -12,9 +12,10 @@ def fetch_data(url):
         print(f"An error occurred: {e}")
 
 def merge_pdf():
-    merger = PdfFileMerger()
+    merger = PdfMerger()
     print(merger.id_count)  # Note: This line will raise an AttributeError because id_count does not exist
     merger.close()
+
 
 if __name__ == '__main__':
     # Example URL to fetch data from
