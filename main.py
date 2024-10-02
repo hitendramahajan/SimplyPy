@@ -1,6 +1,6 @@
 from PyPDF2 import PdfFileMerger
-import requests
 from PyPDF2 import PdfMerger
+import requests
 
 def fetch_data(url):
     try:
@@ -12,7 +12,7 @@ def fetch_data(url):
         print(f"An error occurred: {e}")
 
 def merge_pdf():
-    merger = PdfFileMerger()
+    merger = PdfMerger()
     print(merger.id_count)  # Note: This line will raise an AttributeError because id_count does not exist
     merger.close()
 
